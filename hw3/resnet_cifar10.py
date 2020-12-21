@@ -95,4 +95,3 @@ class ResNet(chainer.Chain):
 class ResNet20(ResNet):
     def __init__(self, n_class=10):
         super(ResNet20, self).__init__(n_class, [3, 3, 3])
-        
